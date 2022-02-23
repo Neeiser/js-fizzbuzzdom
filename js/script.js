@@ -5,6 +5,6 @@
 /* 5: Appendi un elemento html con il numero o la stringa corretta. */
 /* 6: Stile differente a seconda del valore dell'indice per i vari multipli */
 
-for (i = 1; i < 101; i++) {
+for (i = 1; i <= 100; i++) {
     console.log(i);
 }
