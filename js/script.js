@@ -6,5 +6,15 @@
 /* 6: Stile differente a seconda del valore dell'indice per i vari multipli */
 
 for (i = 1; i <= 100; i++) {
-    console.log(i);
+    
+
+    if (i % 3 == 0) {
+        console.log("multiplo di 3");
+    } else if (i % 5 == 0) {
+       console.log("multiplo di 5");
+    } else if(i % 3 == 0 && i % 5 == 0) {
+        console.log("multiplo di 3 e 5");
+    } else {
+        console.log(i);
+    }
 }
