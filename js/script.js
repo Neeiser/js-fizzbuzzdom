@@ -5,7 +5,13 @@
 /* 5: Appendi un elemento html con il numero o la stringa corretta. */
 /* 6: Stile differente a seconda del valore dell'indice per i vari multipli */
 
+let boxContainer = document.querySelector('.box-container');
+
 for (i = 1; i <= 100; i++) {
+    const item = document.createElement('div');
+    item.classList.add();
+    item.innerHTML = i;
+
 
     if ((i % 3 == 0) && (i % 5 == 0)) {
         console.log("multiplo di 3 e 5");
